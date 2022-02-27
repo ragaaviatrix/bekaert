@@ -1,0 +1,16 @@
+export TF_VAR_controller_name=Azurectrl
+export TF_VAR_copilot_name=copilot
+export TF_VAR_location=westeurope
+export TF_VAR_controller_virtual_machine_size=Standard_A4_v2
+export TF_VAR_controller_vnet_cidr="10.2.0.0/23"
+export TF_VAR_controller_subnet_cidr="10.2.0.0/24"
+export TF_VAR_incoming_ssl_cidr='["CIDR"]'
+export TF_VAR_controller_virtual_machine_admin_username=ctrladmin
+export TF_VAR_controller_virtual_machine_admin_password=<pass>
+export TF_VAR_copilot_virtual_machine_admin_username=copadmin
+export TF_VAR_copilot_virtual_machine_admin_password=<pass>
+export TF_VAR_avx_controller_admin_email=<email>
+export TF_VAR_account_email=<email>
+export TF_VAR_avx_controller_admin_password=<pass>
+export TF_VAR_access_account_name=azure-account
+export TF_VAR_aviatrix_customer_id=<license>
